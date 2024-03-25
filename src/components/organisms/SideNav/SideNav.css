@@ -1,0 +1,119 @@
+/* #sideNav{
+   
+} */
+
+#parent_side_nav {
+  background: rgba(0, 0, 0, 0.391);
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  transition: .5s;
+  top: 0;
+}
+
+#sideNav {
+  background: #004a4a;
+  /* height: 100%; */
+  position: fixed;
+  z-index: 1030;
+  width: 80%;
+  height: 100%;
+  /* position: relative; */
+  animation: mymove 0.3s linear;
+  animation-fill-mode: forwards;
+  color: white;
+}
+
+
+#sideNavWhite {
+  background: #ffffff;
+  /* height: 100%; */
+  position: fixed;
+  z-index: 1030;
+  width: 80%;
+  height: 100%;
+  /* position: relative; */
+  animation: mymove 0.3s linear;
+  animation-fill-mode: forwards;
+  color: white;
+}
+
+.sideNavHidden {
+  width: 80%;
+  background: red;
+  animation: mymove2 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  0% {
+    left: -100%;
+  }
+  25% {
+    left: -75%;
+  }
+  50% {
+    left: -50%;
+  }
+  75% {
+    left: -25%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes mymove2 {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: -25%;
+  }
+  50% {
+    left: -50%;
+  }
+  75% {
+    left: -75%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+#sideNav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#sideNav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 12px 20px 20px;
+    margin-top: 10px;
+    font-size: 20px !important;
+
+
+
+    /* text-align: center;
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px; */
+  }
+  
+
+
+@media (min-width: 879px) {
+    #parent_side_nav {
+      display: none
+    }
+  }

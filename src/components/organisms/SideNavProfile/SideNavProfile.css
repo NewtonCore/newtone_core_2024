@@ -1,0 +1,23 @@
+#side_nav_profile {
+    margin-bottom: 10px;
+}
+
+#side_nav_profile #image_div {
+  height: 50px;
+  width: 50px;
+  /* background: #000; */
+}
+
+#side_nav_profile img {
+  height: auto;
+  width: 100%;
+}
+
+#side_nav_profile #name {
+  font-weight: 700;
+}
+
+#side_nav_profile a{
+  color: #333333;
+  /* text-decoration: none; */
+}

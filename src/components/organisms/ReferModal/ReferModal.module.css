@@ -1,0 +1,27 @@
+.refer_modal{
+    /* background: #000; */
+}
+.footerIcons{
+    /* background: #000; */
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    align-items: center;
+    justify-content:space-between;
+    padding:20px 0px 20px 0px
+}
+
+.footerIcons div{
+    /* background: #000; */
+    /* width: 20px; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerIcons img{
+    height: 70px !important;
+    width: 70px !important;
+
+}

@@ -1,0 +1,9 @@
+.breadcrumb{
+    /* background: #000 !important;
+    padding:20px !important */
+}
+
+.breadcrumb a,.breadcrumb li {
+    background: transparent;
+    
+}

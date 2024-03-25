@@ -1,0 +1,12 @@
+#settings_input_fields input{
+    height: 50px !important;
+    background: #F9F9F9 !important;
+
+}
+
+
+#settings_input_fields .label{
+/* color: white; */
+margin: 20px 0px 10px 0px;
+
+}

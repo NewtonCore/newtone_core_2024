@@ -1,0 +1,35 @@
+.detailsLeft{
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.svg{
+    /* background: #000; */
+    height: 100px;
+    margin-right: 10px;
+}
+
+.labelDetails{
+    /* background: red; */
+    padding:10px
+}
+
+.actionComponent{
+    /* background: #000; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.detailsHeader{
+    /* background: #333333; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    ;
+
+    
+
+}

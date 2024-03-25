@@ -1,0 +1,30 @@
+.container_testimonial {
+  /* background: rgb(217, 83, 83); */
+  position: relative;
+  padding: 20px;
+  margin-top: 20px;
+  width: 200px;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.container_testimonial .testimonial {
+    
+}
+
+.image_div {
+  position: absolute;
+  background: rgb(176, 168, 168);
+  top: -10px;
+  border-radius: 50%;
+  padding: 10px;
+ 
+}
+
+.flex_image_div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}

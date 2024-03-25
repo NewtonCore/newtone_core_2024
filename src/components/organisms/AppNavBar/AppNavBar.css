@@ -1,0 +1,107 @@
+@import "../../../index.css";
+
+#appnav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
+  /* position: fixed; */
+  width: 100%;
+
+  /* background: yellow; */
+  transition: .5s;
+}
+
+#appnav:hover{
+  background: rgb(244, 244, 244);
+}
+
+#left {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #000; */
+}
+
+#right {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+}
+
+#right .btn{
+  margin-bottom: 0px;
+}
+
+#app_nav_logo {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app_nav_logo img {
+  height: auto;
+  width: 150px;
+}
+
+
+
+
+@media (min-width: 1201px)  and (max-width: 1920px) {
+ 
+}
+
+
+@media (min-width: 1025px) and (max-width: 1200px)  {
+  #app_nav_logo img {
+    width: 100px;
+  }
+
+}
+@media (min-width: 769px) and (max-width: 1024px)  {
+  #app_nav_logo img {
+    width: 90px;
+  }
+   
+}
+
+
+
+@media (min-width: 481px) and (max-width: 878px)  {
+  #appnav{
+    display: none;
+   }
+
+   #app_nav_logo img {
+    height: auto;
+    width: 100px;
+  }
+}
+
+
+
+
+@media (min-width: 220px) and (max-width: 576px)  {
+  #appnav{
+    display: none;
+  } 
+}
+
+
+@media (max-width: 219px)  {
+  #appnav{
+    display: none;
+  } 
+}

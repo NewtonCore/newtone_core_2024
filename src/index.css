@@ -1,0 +1,308 @@
+body {
+  /* margin: 0; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+
+  /* background-color: #EDFFFF; */
+
+  font-family: "Urbanist", sans-serif !important;
+}
+
+*,
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --primary_color: #008080;
+  --secondary_color: #a6efef;
+  --secondary_light_color: #f9f9f9;
+  --gray_one_color: #333333;
+}
+::selection {
+  background: var(--primary_color);
+  color: white;
+}
+
+.input_div,
+.input_div_r_select,
+.input_div_mui {
+  /* background: #000; */
+  /* margin-top: 10px; */
+  padding: 10px;
+}
+
+.input_div_r_select {
+  /* background: #000; */
+}
+
+.form-check-input:checked {
+  background: white !important;
+  border-color: var(--primary_color) !important;
+  border-width: 4px;
+}
+
+.input_div input[type="text"],
+.change_pass input[type="password"],
+.input_div input[type="email"],
+.input_div input[type="number"],
+.input_div input[type="tel"],
+.input_div input[type="date"],
+#edit_profile_div .input_div input[type="url"] {
+  height: 50px !important;
+  background: #f9f9f9 !important;
+  border-radius: 0px;
+  border: 0;
+}
+
+.input_div_mui input[type="text"],
+.input_div_mui input[type="email"],
+.input_div_mui input[type="number"],
+.input_div_mui input[type="tel"],
+.input_div_mui input[type="date"] {
+  height: 20px !important;
+  background: #f9f9f9 !important;
+  border-radius: 0px;
+  border: 0;
+}
+
+.mui_date div {
+  border-radius: 0px !important;
+}
+
+.mui_date input {
+  background: #000;
+  border-radius: 0px !important;
+}
+
+.input_div .form-check {
+  height: 55px !important;
+  border-radius: 0px;
+  border: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0px;
+}
+
+.input_div .form-check-label {
+  margin-left: 10px;
+}
+
+.input_div .form-select {
+  height: 50px !important;
+  border-radius: 0px;
+  text-transform: capitalize;
+}
+
+.react-select-container {
+  min-height: 50px !important;
+  border-radius: 0px;
+  text-transform: capitalize;
+  /* background: #000; */
+  padding: 0px !important;
+}
+
+.react-select__control {
+  min-height: 50px !important;
+  border-radius: 0px !important;
+}
+.ck-editor__editable_inline {
+  min-height: 400px;
+}
+
+.input_div textarea,
+.input_div .ck-editor {
+  background: #f9f9f9 !important;
+  border-radius: 0px !important;
+
+  font-family: inherit;
+  width: 100% !important;
+}
+
+.input_div textarea {
+  text-align: justify;
+}
+
+.input_div .label_div,
+.input_div_r_select .label_div {
+  /* background: red; */
+  padding: 10px 0px 10px 0px;
+  font-size: 95% !important;
+  font-weight: 400;
+  /* margin-top: 10px; */
+}
+
+.input_div_mui .label_div,
+.input_div_r_select .label_div {
+  /* background: red; */
+  padding: 10px 0px 10px 0px;
+  font-size: 95% !important;
+  font-weight: 400;
+  /* margin-top: 10px; */
+}
+
+.password-field {
+  /* background: #000; */
+  padding: 0px !important;
+  border: 1px solid rgb(198, 198, 198) !important;
+  border-radius: 8px !important;
+}
+
+.password-field input {
+  border: 0px solid rgb(198, 198, 198) !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.password-field button {
+  border: 0px solid rgb(198, 198, 198) !important;
+  background: rgb(241, 241, 241);
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #333333;
+}
+.password-field span {
+  background: transparent;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  border: 0px solid rgb(198, 198, 198) !important;
+}
+
+.nav-tabs .active {
+  background: var(--primary_color) !important;
+  color: white !important;
+  border-bottom: 0px solid var(--primary_color);
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  height: 100%;
+  font-weight: 200;
+}
+
+.nav-item {
+  /* height: 100 !important; */
+  /* background: #000; */
+  display: flex;
+}
+
+.nav-tabs {
+  border-bottom: 3px solid var(--primary_color);
+}
+
+.nav-item button {
+  color: var(--primary_color) !important;
+  font-weight: 500;
+}
+.nav-item:hover {
+  color: var(--primary_color);
+}
+
+.react-datepicker-wrapper {
+  padding: 0px !important;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #cc0000;
+}
+
+.w-tc-editor-text {
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+  -o-user-select: none !important;
+  pointer-events: none;
+}
+
+.w-tc-editor-text::selection {
+  /* background: rgba(0,0,0,0); */
+  /* cursor: pointer !important; */
+}
+
+.tox-statusbar__branding {
+  display: none !important;
+}
+
+.flex_parent {
+  /* padding: 10px; */
+  display: flex;
+}
+
+.flex_children {
+  /* padding: 10px; */
+  display: flex;
+  flex: 1;
+}
+
+.flex_child1 {
+  flex: 3;
+}
+
+.flex_child2 {
+}
+
+.flex_child3 {
+}
+
+div .tab-content {
+  padding: 0 !important;
+}
+
+.react-select_menu {
+  background: #000 !important;
+}
+
+.react-select__menu {
+  /* background: #000 !important; */
+  z-index: 10000;
+}
+
+.ck.ck-dropdown .ck-dropdown__arrow {
+  z-index: 0 !important;
+}
+
+.accordion-button .collapsed button {
+  /* secondary_light_color */
+  color: var(--primary_color) !important;
+  background: var(--secondary_light_color) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--primary_color) !important;
+  background: var(--secondary_light_color) !important;
+}
+
+#app_button_div_div {
+  min-height: 150px !important;
+  cursor: pointer;
+  text-align: left !important;
+}
+
+#app_button_div_div:hover {
+  cursor: pointer;
+  /* min-height: 220px !important; */
+}
+
+@media print {
+  .btn,
+  button {
+    display: none !important;
+  }
+}

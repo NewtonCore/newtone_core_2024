@@ -1,0 +1,147 @@
+#about_div {
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  height: 75%;
+  position: absolute;
+  top: 160px;
+  /* left: 10; */
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px !important;
+}
+
+#about_svg_div {
+  background: white;
+  height: 60vh !important;
+  /* background: #000; */
+}
+
+#about_container_div {
+  /* background:red; */
+  height: 100vh;
+}
+
+#about_container {
+  /* position: relative !important; */
+  background: #F9F9F9;
+  height: 50vh;
+
+  /* background: #000; */
+}
+
+#about_container h1 {
+  font-size: 55px !important;
+  font-weight: 700;
+}
+#about_svg_div object {
+  height: 60vh !important;
+  width: 100% !important;
+}
+
+@media (min-width: 1921px) and (max-width: 3000px) {
+}
+@media (min-width: 1201px) and (max-width: 1920px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #about_container h1 {
+    font-size: 45px !important;
+    font-weight: 600;
+  }
+  #about_container_div {
+    height: 70vh;
+  }
+
+  #about_svg_div {
+    height: 30vh !important;
+  }
+
+  #about_svg_div object {
+    height: 35vh !important;
+  }
+  #about_div {
+    justify-content: center;
+
+    top: 50px;
+    /* left: 10; */
+    height: 65%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #about_container h1 {
+    font-size: 35px !important;
+    font-weight: 700;
+  }
+  #about_div {
+    top: 100px !important;
+    justify-content: center;
+    /* height: 65%; */
+  }
+  #about_svg_div {
+    height: 35vh !important;
+  }
+
+  #about_svg_div object {
+    height: 35vh !important;
+  }
+  #about_container_div {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 576px) {
+  #about_container h1 {
+    font-size: 35px !important;
+    font-weight: 700;
+  }
+  #about_div {
+    justify-content: center;
+
+    top: 100px;
+    /* left: 10; */
+    height: 65%;
+    
+  }
+  #about_container_div {
+    height: 85vh;
+  }
+  #about_svg_div {
+    background: white;
+    height: 25vh !important;
+  }
+
+  #about_svg_div object {
+    height: 25vh !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 219px) {
+  #about_div {
+    justify-content: center;
+
+    top: 60px;
+    /* left: 10; */
+    height: 65%;
+  }
+  #about_container_div {
+    height: 70vh;
+  }
+  #about_svg_div {
+    background: white;
+    height: 35vh !important;
+  }
+  #about_svg_div object {
+    height: 35vh !important;
+    width: 100% !important;
+  }
+}

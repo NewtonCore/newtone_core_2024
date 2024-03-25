@@ -1,0 +1,78 @@
+.image {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.image img {
+  
+    height: 60px !important;
+}
+  
+
+.image_div {
+  width: auto;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  margin-bottom: 20px;
+  transition: .2s;
+  /* background: #000; */
+
+}
+
+.skill_tile {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  /* width: 120px; */
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+
+  transition: .2s;
+  /* position: relative; */
+ 
+}
+
+.skill_tile .myText{
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+
+
+}
+.skill_tile button {
+    border-radius: 0px !important;
+    
+}
+
+.skill_tile:hover{
+  border:  1px solid gray;
+  background: var(--primary_color);
+  color: white;
+
+}
+
+.skill_tile:hover .image_div {
+  transform: scale(1.05);
+  background: white;
+
+}

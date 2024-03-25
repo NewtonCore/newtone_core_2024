@@ -1,0 +1,87 @@
+.container_link {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background: #f9f9f9;
+  /* margin-bottom: 10px; */
+  padding: 12px;
+  border-radius: 4px;
+  align-items: center;
+  text-decoration: none;
+  color: #333333;
+  margin-bottom: 10px;
+
+
+}
+
+.container_link_active {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background: #008080;
+  /* margin-bottom: 10px; */
+  padding: 12px;
+  border-radius: 4px;
+  align-items: center;
+  text-decoration: none;
+  color: #333333;
+  margin-bottom: 10px;
+  /* color: white; */
+}
+
+.container_link_active a {
+  color: white !important;
+}
+
+.elipse {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elipse svg {
+  height: 30 !important;
+  width: 30 !important;
+}
+.link {
+  font-size: 18px !important;
+  font-family: "Urbanist", sans-serif;
+
+  font-weight: 400;
+  /* color: white; */
+}
+
+.container_link_active .link{
+  color: white;
+}
+
+
+.link_active {
+  color: white;
+}
+
+.link a {
+  text-decoration: none;
+  color: red;
+}
+
+
+.container_link_active:hover{
+  color: #333333 !important;
+}
+
+.container_link:hover{
+  color: #333333 !important;
+}

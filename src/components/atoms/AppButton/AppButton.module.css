@@ -1,0 +1,207 @@
+@import "../../../index.css";
+
+.app_button {
+  font-family: "Urbanist", sans-serif;
+  background: var(--primary_color);
+  font-size: 18px !important;
+  height: 55px !important;
+  color: white;
+  border-radius: 4px !important;
+  margin: 0;
+  padding-right: 40px !important;
+  padding-left: 40px !important;
+  font-weight: 400 !important;
+  transition: 0.5s;
+  filter: saturate(.8);
+  word-break: break-all;
+  
+}
+
+.app_button_div {
+  font-family: "Urbanist", sans-serif;
+  /* background: var(--primary_color); */
+  /* color: white; */
+  border-radius: 4px !important;
+  margin: 0;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  /* font-weight: 400 !important; */
+  transition: 0.1s;
+  width: 100%;
+  word-break: break-all;
+}
+
+.app_button_div:active {
+  border: 1px solid rgba(0, 0, 0 ,.2);
+}
+
+.app_button_div_div {
+    min-height: 220px !important;
+}  
+
+.app_button_div_div:hover {
+cursor: pointer;
+  /* min-height: 220px !important; */
+
+}
+
+.app_button_secondary {
+  font-family: "Urbanist", sans-serif;
+  background: #efefef;
+  font-size: 14px !important;
+  height: auto !important;
+  color: white;
+  border-radius: 4px;
+  margin: 0;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  font-weight: 300 !important;
+  transition: 1s;
+  word-break: break-all;
+
+}
+
+.app_button:hover,
+.app_button_small:hover {
+  filter: saturate(1);
+  border-color: transparent;
+  transform: scale(1.01);
+  transition: 1s;
+  /* background: #015959 !important; */
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0px solid transparent !important;
+}
+
+.app_button:focus,
+.app_button_small:focus {
+  border: 0px solid #015959;
+}
+
+.app_button_small {
+  font-family: "Urbanist", sans-serif;
+  /* background: #008080; */
+  /* font-size: 23px; */
+  height: 50px;
+  /* color: white; */
+  border-radius: 4px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-weight: 400;
+  filter: saturate(.8);
+
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (min-width: 1921px) and (max-width: 3000px) {
+  .app_button {
+    font-size: 23px;
+    height: 75px;
+    border-radius: 4px;
+    margin: 0;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+  }
+
+  .app_button_small {
+    font-family: "Urbanist", sans-serif;
+    background: var(--primary_color);
+    height: 50px;
+    border-radius: 4px;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1920px) {
+  .app_button {
+    font-size: 20px;
+    height: 74px;
+    border-radius: 4px;
+    margin: 0;
+    padding-right: 38px !important;
+    padding-left: 38px !important;
+  }
+
+  .app_button_small {
+    height: 55px;
+    border-radius: 4px;
+    margin: 0;
+    padding-right: 28px !important;
+    padding-left: 28px !important;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .app_button {
+    font-size: 16px;
+    height: 68px;
+    border-radius: 4px;
+    margin: 0;
+    padding-right: 36px !important;
+    padding-left: 36px !important;
+  }
+
+  .app_button_small {
+    height: 50px;
+    border-radius: 4px;
+    margin: 0;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .app_button {
+    font-size: 16px;
+    height: 65px;
+    border-radius: 4px;
+    margin: 0;
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+  }
+
+  .app_button_small {
+    height: 50px;
+    border-radius: 4px;
+    margin: 0;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .app_button {
+    font-size: 15px;
+    height: 65px;
+    border-radius: 4px !important;
+    margin: 0;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 480px) {
+  .app_button {
+    font-size: 17px;
+    height: 55px;
+    border-radius: 4px !important;
+    margin: 0;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+  }
+}
+
+@media print {
+  .btn {
+      display: none;
+   }
+  
+}

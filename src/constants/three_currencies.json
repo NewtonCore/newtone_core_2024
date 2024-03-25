@@ -1,0 +1,22 @@
+[
+  {
+    "id": "USD",
+    "symbol": "US$",
+    "name": "United States dollar"
+  },
+  {
+    "id": "GBP",
+    "symbol": "\u00a3",
+    "name": "British pound"
+  },
+  {
+    "id": "EUR",
+    "symbol": "\u20ac",
+    "name": "European Euro"
+  },
+  {
+    "id": "₦",
+    "symbol": "₦",
+    "name": "Nigerian Naira"
+  }
+]

@@ -1,0 +1,89 @@
+#app_mobile_nav {
+  display: none;
+  z-index: 1;
+  background-color: white;
+  border-bottom: 1px solid rgb(242, 242, 242);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /* background: #000; */
+}
+
+#app_mobile_nav .row {
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+#app_mobile_nav #mobile-right {
+  /* background: pink; */
+  padding: 0px !important;
+  margin: 0px !important;
+}
+#mobile-right .btn-default {
+  /* background: pink; */
+  width: 100%;
+  /* text-align: right; */
+  /* padding: 0px ; */
+}
+
+#mobile-right #user,
+#menu_bars {
+  /* background: red; */
+  margin: 0px !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px !important;
+  
+}
+
+#mobile-left {
+  /* background: red; */
+  margin: 0px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#mobile-left object {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* .dropbtn > svg {
+    pointer-events: none;
+  } */
+
+#app_mobile_nav #mobile-right object {
+  height: 100% !important;
+  width: 100% !important;
+  pointer-events: none;
+}
+
+@media (min-width: 481px) and (max-width: 879px) {
+  #app_mobile_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 576px) {
+  #app_mobile_nav {
+    display: block;
+  }
+}
+
+@media (max-width: 219px) {
+  #app_mobile_nav {
+    display: block;
+  }
+}
+
+
+@media (min-width: 879px) {
+    #app_mobile_nav {
+      display: none
+    }
+  }

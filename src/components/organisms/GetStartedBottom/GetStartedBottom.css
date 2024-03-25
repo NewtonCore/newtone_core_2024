@@ -1,0 +1,14 @@
+#get_started_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#get_started h1{
+    font-size: 60px !important;
+
+}
+
+#get_started {
+    margin-top: 50px !important;
+}

@@ -1,0 +1,56 @@
+#job_tile {
+  font-size: 90%;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 300;
+  color: #333333;
+  text-decoration: none;
+}
+
+
+
+#job_tile svg {
+  width: 12px;
+  margin-right: 5px;
+  color: #008080;
+}
+
+#job_tile #title {
+  margin-bottom: 5px;
+}
+
+#job_tile #job_title {
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#job_tile span {
+  margin-top: 8px;
+}
+
+#job_tile #image {
+  /* background: #000; */
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  /* padding:5px */
+}
+
+#job_tile #image img {
+  /* background: #000;
+  height: 100%;
+  width: auto; */
+  height: 100% !important;
+  width:  100% !important;
+}
+
+
+#job_tile #job_image_div{
+    /* background: #000; */
+    display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* width: 100%; */
+}

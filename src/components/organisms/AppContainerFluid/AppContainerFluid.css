@@ -1,0 +1,23 @@
+
+@media (min-width: 1921px)  and (max-width: 3000px) {
+    .container-fluid{
+     /* background: #000; */
+     padding-left: 100px;
+     padding-right: 100px;
+    }
+   
+     
+   }
+
+@media (min-width: 1201px)  and (max-width: 1920px) {
+   .container-fluid{
+    /* background: #000; */
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+  
+    
+  }
+
+
+  

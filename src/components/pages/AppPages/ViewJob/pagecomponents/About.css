@@ -1,0 +1,17 @@
+.About h1,
+.About h2,
+.About h3,
+.About h4,
+.About h5,
+.About h6 {
+  font-size: 110%;
+  font-weight: 600 !important;
+}
+
+.About p{
+    font-style: inherit !important;
+}
+
+.About {
+  font-style: inherit !important;
+}

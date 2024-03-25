@@ -1,0 +1,45 @@
+#white_bg{
+    background: white;
+    padding:20px;
+    
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #white_bg{
+        background: white;
+        padding:10px !important;
+        margin-bottom: 40px;
+        
+    }
+    
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    #white_bg{
+        background: white;
+        padding:25px !important;
+        margin-bottom: 40px;
+        
+    }
+  }
+  
+  @media (min-width: 220px) and (max-width: 576px) {
+    #white_bg{
+        background: white;
+
+        padding:0px !important;
+        margin-bottom: 40px;
+        
+    }
+  }
+  
+  @media (max-width: 219px) {
+    #white_bg{
+        background: white;
+        padding:0px !important;
+        margin-bottom: 40px;
+        
+    }
+  }
+  

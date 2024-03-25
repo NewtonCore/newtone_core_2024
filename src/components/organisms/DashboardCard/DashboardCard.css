@@ -1,0 +1,72 @@
+#dashboard_card #count{
+    text-align: right;
+    font-size: 20px;
+    /* display: block; */
+    /* display: flex; */
+    /* background: red; */
+
+}
+#dashboard_card_link{
+    text-decoration: none;
+    color: inherit;
+    transition: .2s;
+}
+#dashboard_card_link:hover{
+    color: rgb(255, 149, 0);
+}
+
+#dashboard_card #name{
+    text-align: right;
+    font-size: 13px;
+    /* display: block; */
+    font-weight: 300;
+
+}
+
+#dashboard_card{
+    /* background: #000; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#dashboard_card{
+    background-color: #A6EFEF;
+    border-radius: 4px;
+    min-height: 120px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+#dashboard_card #image_div{
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#dashboard_card #image_div_container{
+    
+    /* align-items: center; */
+    /* display: flex;
+    justify-content: center; */
+    /* background: #000; */
+
+}
+
+#dashboard_card #content_div_container{
+    
+    /* align-items: center; */
+    /* display: flex;
+    justify-content: center; */
+    /* background: #000; */
+    flex: 1;
+    text-align: right;
+
+}

@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.custom_file_upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.custom_file_upload :hover{
+cursor: pointer;
+background: rgb(239, 239, 239);
+}
+
+.custom_file_upload input[type="file"] {
+  display: none;
+}

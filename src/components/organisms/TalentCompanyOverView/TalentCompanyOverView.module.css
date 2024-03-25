@@ -1,0 +1,16 @@
+.container{
+    /* background: #000; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.container h6{
+    /* color: red; */
+    font-weight: 500 !important;
+}
+
+.container span{
+    /* color: red; */
+    /* font-weight: 200 !important; */
+}

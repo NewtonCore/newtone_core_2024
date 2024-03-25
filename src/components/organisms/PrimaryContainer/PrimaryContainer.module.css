@@ -1,0 +1,76 @@
+.container {
+  padding: 40px;
+  border-radius: 8px;
+  /* display: flex; */
+  /* margin: 10px; */
+}
+
+.PrimaryContainer {
+  background: #008080 !important;
+
+  color: white;
+}
+
+.SecondaryContainer {
+  background: #f7f7f7 !important;
+
+  color: rgb(36, 36, 36);
+}
+
+.SemiSecondaryContainer {
+  /* background: red !important; */
+  color: rgb(36, 36, 36);
+}
+
+@media (min-width: 1921px) and (max-width: 3000px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1920px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .PrimaryContainer,
+  .SecondaryContainer {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .PrimaryContainer,
+  .SecondaryContainer {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .PrimaryContainer,
+  .SecondaryContainer {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 576px) {
+  .PrimaryContainer,
+  .SecondaryContainer {
+    padding: 10px;
+  }
+}
+
+/* 
+@media (min-width: 1921px)  and (max-width: 3000px) {
+}
+
+@media (min-width: 1201px)  and (max-width: 1920px) {
+}
+
+@media (min-width: 1025px) and (max-width: 1200px)  {
+}
+
+@media (min-width: 769px) and (max-width: 1024px)  {
+}
+
+@media (min-width: 481px) and (max-width: 768px)  {
+}
+
+@media (min-width: 220px) and (max-width: 576px)  {
+} */

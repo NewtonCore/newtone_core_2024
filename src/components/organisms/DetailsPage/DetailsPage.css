@@ -1,0 +1,18 @@
+.detail-page{
+    margin-top: 100px;
+}
+#main-content-details{
+    margin-top: 20px;
+
+}
+@media print {
+    .detail-page{
+        margin-top: 0px !important;
+     }
+
+     #main-content-details{
+        margin-top: -80px !important;
+    
+    }
+    
+  }

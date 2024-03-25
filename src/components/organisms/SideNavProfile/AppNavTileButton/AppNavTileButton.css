@@ -1,0 +1,32 @@
+#app_nav_tile_btn {
+  /* background: #008080; */
+  /* border-radius: 4px;
+  display: flex;
+  flex-direction: row; */
+  align-items: center;
+  /* padding: 10px 20px 10px 20px; */
+  color: white;
+  font-weight: 400;
+  justify-content: center;
+  margin-left: 20px;
+  height: 49px !important;
+  font-size: 80% !important;
+  /* width: 100px; */
+}
+
+#app_nav_tile_btn #image_div {
+
+}
+
+#app_nav_tile_btn img{
+  height: 50px !important;
+  
+}
+
+#app_nav_tile_btn #image_div img {
+  height: 40px;
+  width: 40px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+
+}

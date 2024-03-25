@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/9046.b77e6f76.chunk.css","mappings":"AAAA,8BACI,kCAEJ,CAEA,8BACA,oBACA","sources":["components/pages/company/CompanyProfile/CompanyEdit.module.css"],"sourcesContent":[".red_input {\n    border: 1px solid rgb(233, 102, 102) !important;\n    /* border: 1px solid black; */\n}\n\n.modal_90w { \nwidth: 100% !important;\n}"],"names":[],"sourceRoot":""}

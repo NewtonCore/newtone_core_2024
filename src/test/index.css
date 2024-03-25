@@ -1,0 +1,23 @@
+
+
+#container {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background: #000;
+  }
+  #navi,
+  #infoi {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 30;
+    /* left: 10; */
+    background:red;
+   margin-left:10%;
+   margin-right:10%;
+
+  }
+  #infoi {
+    z-index: 10;
+  }

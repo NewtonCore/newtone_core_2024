@@ -1,0 +1,282 @@
+[
+    {
+        "name": "MONGOD B",
+        "src": "./skills/MONGOD B.png"
+    },
+    {
+        "name": "IT OPS",
+        "src": "./skills/IT OPS.png"
+    },
+    {
+        "name": "BEEGO",
+        "src": "./skills/BEEGO.png"
+    },
+    {
+        "name": "ACTION SCRIPT",
+        "src": "./skills/ACTION SCRIPT.png"
+    },
+    {
+        "name": "OBJECT ORIENTED PROGRAMMING",
+        "src": "./skills/OBJECT ORIENTED PROGRAMMING.png"
+    },
+    {
+        "name": "WINDOWS SERVER",
+        "src": "./skills/WINDOWS SERVER.png"
+    },
+    {
+        "name": "FROTEND",
+        "src": "./skills/FROTEND.png"
+    },
+    {
+        "name": "AKKA.NET",
+        "src": "./skills/AKKA.NET.png"
+    },
+    {
+        "name": "BLUE SOCKET",
+        "src": "./skills/BLUE SOCKET.png"
+    },
+    {
+        "name": "GIT",
+        "src": "./skills/GIT.png"
+    },
+    {
+        "name": "PRO TOOLS",
+        "src": "./skills/PRO TOOLS.png"
+    },
+    {
+        "name": "BACKBONE",
+        "src": "./skills/BACKBONE.png"
+    },
+    {
+        "name": "PYTHON",
+        "src": "./skills/PYTHON.png"
+    },
+    {
+        "name": "GOOGLE CLOUD",
+        "src": "./skills/GOOGLE CLOUD.png"
+    },
+    {
+        "name": "ADA",
+        "src": "./skills/ADA.png"
+    },
+    {
+        "name": "ABAP",
+        "src": "./skills/ABAP.png"
+    },
+    {
+        "name": "GOOGLE ANALYTICS",
+        "src": "./skills/GOOGLE ANALYTICS.png"
+    },
+    {
+        "name": "SCALA",
+        "src": "./skills/SCALA.png"
+    },
+    {
+        "name": "ANGULAR",
+        "src": "./skills/ANGULAR.png"
+    },
+    {
+        "name": "AVALONIA UI",
+        "src": "./skills/AVALONIA UI.png"
+    },
+    {
+        "name": "BASH",
+        "src": "./skills/BASH.png"
+    },
+    {
+        "name": "JAVA",
+        "src": "./skills/JAVA.png"
+    },
+    {
+        "name": "RUST",
+        "src": "./skills/RUST.png"
+    },
+    {
+        "name": "ANDROID",
+        "src": "./skills/ANDROID.png"
+    },
+    {
+        "name": "LINUX",
+        "src": "./skills/LINUX.png"
+    },
+    {
+        "name": "BOTTLE",
+        "src": "./skills/BOTTLE.png"
+    },
+    {
+        "name": "JAVASCRIPT",
+        "src": "./skills/JAVASCRIPT.png"
+    },
+    {
+        "name": "OBJECTIVE C",
+        "src": "./skills/OBJECTIVE C.png"
+    },
+    {
+        "name": "MICROSOFT POWER BI",
+        "src": "./skills/MICROSOFT POWER BI.png"
+    },
+    {
+        "name": "ABP.IO",
+        "src": "./skills/ABP.IO.png"
+    },
+    {
+        "name": "C SHARP",
+        "src": "./skills/C SHARP.png"
+    },
+    {
+        "name": "HADOOP",
+        "src": "./skills/HADOOP.png"
+    },
+    {
+        "name": "BOOTSTRAP",
+        "src": "./skills/BOOTSTRAP.png"
+    },
+    {
+        "name": "MICROSOFT AZURE",
+        "src": "./skills/MICROSOFT AZURE.png"
+    },
+    {
+        "name": "MICROSOFT ACCESS",
+        "src": "./skills/MICROSOFT ACCESS.png"
+    },
+    {
+        "name": "NODE",
+        "src": "./skills/NODE.png"
+    },
+    {
+        "name": "ASP.NET CORE",
+        "src": "./skills/ASP.NET CORE.png"
+    },
+    {
+        "name": "GO",
+        "src": "./skills/GO.png"
+    },
+    {
+        "name": "MYSQL",
+        "src": "./skills/MYSQL.png"
+    },
+    {
+        "name": "DJANGO",
+        "src": "./skills/DJANGO.png"
+    },
+    {
+        "name": "ADONIS JS",
+        "src": "./skills/ADONIS JS.png"
+    },
+    {
+        "name": "MICROSOFT POWER POINT",
+        "src": "./skills/MICROSOFT POWER POINT.png"
+    },
+    {
+        "name": "HTML",
+        "src": "./skills/HTML.png"
+    },
+    {
+        "name": "J QUERY",
+        "src": "./skills/J QUERY.png"
+    },
+    {
+        "name": "CAKE PHP",
+        "src": "./skills/CAKE PHP.png"
+    },
+    {
+        "name": "SWIFT",
+        "src": "./skills/SWIFT.png"
+    },
+    {
+        "name": "ASSEMBLY LANGUAGE",
+        "src": "./skills/ASSEMBLY LANGUAGE.png"
+    },
+    {
+        "name": "SEARCH ENGINE",
+        "src": "./skills/SEARCH ENGINE.png"
+    },
+    {
+        "name": "Machine learning",
+        "src": "./skills/Machine learning.png"
+    },
+    {
+        "name": "BUFFALO",
+        "src": "./skills/BUFFALO.png"
+    },
+    {
+        "name": "BLAZOR",
+        "src": "./skills/BLAZOR.png"
+    },
+    {
+        "name": "AWK",
+        "src": "./skills/AWK.png"
+    },
+    {
+        "name": "VISOR",
+        "src": "./skills/VISOR.png"
+    },
+    {
+        "name": "MICROSOFT OUTLOOK",
+        "src": "./skills/MICROSOFT OUTLOOK.png"
+    },
+    {
+        "name": "KEYNOTE",
+        "src": "./skills/KEYNOTE.png"
+    },
+    {
+        "name": "BETA",
+        "src": "./skills/BETA.png"
+    },
+    {
+        "name": "C",
+        "src": "./skills/C.png"
+    },
+    {
+        "name": "AUTO HOT KEY",
+        "src": "./skills/AUTO HOT KEY.png"
+    },
+    {
+        "name": "REACT JS",
+        "src": "./skills/REACT JS.png"
+    },
+    {
+        "name": "NEXT",
+        "src": "./skills/NEXT.png"
+    },
+    {
+        "name": "REST API",
+        "src": "./skills/REST API.png"
+    },
+    {
+        "name": "PHP",
+        "src": "./skills/PHP.png"
+    },
+    {
+        "name": "CSS",
+        "src": "./skills/CSS.png"
+    },
+    {
+        "name": "RUBY ON RAILS",
+        "src": "./skills/RUBY ON RAILS.png"
+    },
+    {
+        "name": "BOO",
+        "src": "./skills/BOO.png"
+    },
+    {
+        "name": "R",
+        "src": "./skills/R.png"
+    },
+    {
+        "name": "WORD PRESS",
+        "src": "./skills/WORD PRESS.png"
+    },
+    {
+        "name": "NOSQL",
+        "src": "./skills/NOSQL.png"
+    },
+    {
+        "name": "APEX",
+        "src": "./skills/APEX.png"
+    },
+    {
+        "name": "KOTLIN",
+        "src": "./skills/KOTLIN.png"
+    }
+]

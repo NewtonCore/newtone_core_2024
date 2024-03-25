@@ -1,0 +1,46 @@
+.tile {
+  background: #f9f9f9;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 350px;
+  border-radius: 8px;
+  margin: 10px 0px 10px 0px;
+  text-decoration: none;
+  color: inherit;
+  transition: .5s;
+}
+
+.tile:hover{
+  border: 1px solid gray;
+  transition: .5s;
+  font-size: 95%;
+}
+
+.tile:hover{
+  color: inherit;
+
+}
+
+.tile .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* min-height: 80%; */
+  text-align: center;
+  /* background: #000; */
+  flex: 1;
+
+}
+
+.tile .icon_div {
+  /* height: 30px; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}

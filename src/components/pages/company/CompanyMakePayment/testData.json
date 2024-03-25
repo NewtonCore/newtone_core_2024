@@ -1,0 +1,178 @@
+{
+    "id": 14,
+    "job": {
+        "id": 16,
+        "companypaymenttransaction_set": [
+            {
+                "id": 8,
+                "created_at": "2023-02-23T07:48:41.943954Z",
+                "updated_at": "2023-02-23T07:48:41.943991Z",
+                "amount": 40,
+                "currency": "USD",
+                "transaction_id": null,
+                "transaction_date": "2023-02-23T07:48:41.944031Z",
+                "company": 2,
+                "job": 16,
+                "apply_talent": null
+            }
+        ],
+        "experienceskills": [
+            {
+                "id": 12,
+                "created_at": "2023-02-23T06:53:13.850688Z",
+                "updated_at": "2023-02-23T06:53:13.850747Z",
+                "yearExperience": 1,
+                "level": "intermediate",
+                "skill": {
+                    "id": 5,
+                    "created_at": "2023-02-01T10:42:44.814610Z",
+                    "updated_at": "2023-02-10T13:28:49.074895Z",
+                    "name": "Redux",
+                    "code": "Redux",
+                    "percent_topass": 0.7,
+                    "picture": "http://localhost:8000/media/skill/Ellipse_10-5.png",
+                    "type": "simple"
+                }
+            }
+        ],
+        "number_of_applicaton": 1,
+        "created_at": "2023-02-23T06:53:26.410663Z",
+        "updated_at": "2023-02-28T11:15:22.691637Z",
+        "phone": null,
+        "period": 1,
+        "on_site": false,
+        "mode": "full-time",
+        "type": "contract",
+        "duration": null,
+        "description": "<p>In this role, you will be responsible for developing and implementing user interface components using React. js concepts and workflows such as Redux, Flux, and Webpack. You will also be responsible for profiling and improving front-end performance and documenting our front-end codebase. To ensure success as a react.</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 144009aa999 aaa ajahja ajj</p>\r\n<h5>Job Requirements</h5>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 144009aa999 aaa ajahja ajj</p>",
+        "salary": "2000-3000",
+        "currency": "AED",
+        "experience": 1,
+        "status": "progress",
+        "expiration_date": "2023-03-23",
+        "start_date": "2023-04-10",
+        "address": null,
+        "file_description": null,
+        "company": {
+            "id": 2,
+            "created_at": "2023-02-02T16:32:58.330699Z",
+            "updated_at": "2023-03-07T09:20:22.012955Z",
+            "name": "kalro",
+            "name_of_company_personel": "kalro",
+            "address": "Nairobi",
+            "country": "Åland Islands",
+            "about": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 144009aa999 aaa ajahja ajj&nbsp;</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 144009aa999 aaa ajahja ajj</p>",
+            "logo": "http://localhost:8000/media/company/profile/2_o5Cgp9b",
+            "user": 7
+        },
+        "title": {
+            "id": 5,
+            "created_at": "2023-02-01T10:42:44.814610Z",
+            "updated_at": "2023-02-10T13:28:49.074895Z",
+            "name": "Redux",
+            "code": "Redux",
+            "percent_topass": 0.7,
+            "picture": "http://localhost:8000/media/skill/Ellipse_10-5.png",
+            "type": "simple"
+        }
+    },
+    "talent": {
+        "id": 6,
+        "user": {
+            "id": 12,
+            "email": "ruthagoya@gmail.com",
+            "username": null,
+            "phone": "0791836987",
+            "first_name": "Ruth",
+            "last_name": "Agoya",
+            "picture": null,
+            "is_staff": false,
+            "is_confirmed": false,
+            "time_zone": "",
+            "type": "talent",
+            "company_website": ""
+        },
+        "availability": null,
+        "user_skills": [
+            {
+                "id": 55,
+                "created_at": "2023-02-22T13:07:59.846067Z",
+                "updated_at": "2023-02-22T13:07:59.846107Z",
+                "yearExperience": 1,
+                "level": "intermediate",
+                "skill": {
+                    "id": 1,
+                    "created_at": "2023-02-01T10:42:08.089439Z",
+                    "updated_at": "2023-02-10T13:27:09.780788Z",
+                    "name": "Java",
+                    "code": "Java",
+                    "percent_topass": 0.7,
+                    "picture": "http://localhost:8000/media/skill/Ellipse_12-3.png",
+                    "type": "simple"
+                }
+            },
+            {
+                "id": 57,
+                "created_at": "2023-02-22T14:29:32.395642Z",
+                "updated_at": "2023-02-22T14:29:32.395701Z",
+                "yearExperience": 1,
+                "level": "intermediate",
+                "skill": {
+                    "id": 3,
+                    "created_at": "2023-02-01T10:42:31.243939Z",
+                    "updated_at": "2023-02-10T13:27:33.349466Z",
+                    "name": "Javascript",
+                    "code": "Javascript",
+                    "percent_topass": 0.7,
+                    "picture": "http://localhost:8000/media/skill/Ellipse_11.png",
+                    "type": "simple"
+                }
+            },
+            {
+                "id": 61,
+                "created_at": "2023-02-23T07:39:10.685105Z",
+                "updated_at": "2023-02-23T07:39:10.685209Z",
+                "yearExperience": 1,
+                "level": "senior",
+                "skill": {
+                    "id": 4,
+                    "created_at": "2023-02-01T10:42:37.117433Z",
+                    "updated_at": "2023-02-10T13:27:53.897179Z",
+                    "name": "Golang",
+                    "code": "Golang",
+                    "percent_topass": 0.7,
+                    "picture": "http://localhost:8000/media/skill/Ellipse_9.png",
+                    "type": "simple"
+                }
+            }
+        ],
+        "created_at": "2023-02-22T00:54:46.030187Z",
+        "updated_at": "2023-03-11T13:30:48.102069Z",
+        "last_name": "Agoya",
+        "first_name": "Ruth",
+        "email": "ruthagoya@gmail.com",
+        "address": "Nairobi",
+        "qualification": "diploma",
+        "phone": "0791836987",
+        "current_job_title": "Software developer",
+        "year_of_experience": 1,
+        "expected_min_salary": 0,
+        "gender": "female",
+        "about_me": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span style=\"color: rgb(0, 0, 0);\">Viverra<strong> </strong></span>condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 144009aa999 aaa ajahja ajj</p>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 1440Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra condimentum auctor fermentum tempor dolor posuere morbi. Tristique feugiat netus volutpat facilisis magna posuere. 144009aa999 aaa ajahja ajj</p>",
+        "desiredJobMode": "part-time",
+        "type": "contract",
+        "github": "PimiYvan",
+        "website": null,
+        "linkedlin": "",
+        "num_view_profile": 34,
+        "photo": "http://localhost:8000/media/talent/profile/6VRn2Al5xw_WHYMtSg.png",
+        "period": 10
+    },
+    "created_at": "2023-02-23T07:38:08.181522Z",
+    "updated_at": "2023-02-23T07:49:04.226908Z",
+    "view_later": false,
+    "status": "offered",
+    "message": "",
+    "offer_letter": "Dear Ruth, \n\n  We are excited to extend an offer of employment for the role of Redux at kalro, with an anticipated start date of 2023-02-28. \n\n  The starting salary for this position is 2000-3000 per [hour or year]. Payment occurs on a [weekly, biweekly, monthly, etc.] basis, starting on [date of first pay period], and is issued via [check, direct deposit, etc.]. \n\n  In addition, you will be eligible for the following benefits: [insurance, paid time off, mileage reimbursement, etc.]. More details about these benefits will be addressed by the Human Resources department during your onboarding process. \n\n  The expectations of this position are :\n  In this role, you will be responsible for developing and implementing user interface components using React. js concepts and workflows such as Redux, Flux, and Webpack. You will also be responsible for profiling and improving front-end performance and documenting our front-end codebase. To ensure success as a react. .\nYou will be reporting to [supervisor name and title], who can be reached at [supervisor phone number or email address]. \n\n  Your employment with kalro will be dependent on the following contingencies: [background check, drug screening, etc.]. \n\n  Please confirm your acceptance of the [role title] position, as well as all of the above terms and conditions, by signing this letter and returning it to [contact name] by [date]. \n\n  Sincerely, \n",
+    "reject_letter": null
+}

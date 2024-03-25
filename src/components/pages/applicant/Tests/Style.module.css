@@ -1,0 +1,9 @@
+.button_option{
+    text-align: left !important;
+    overflow-wrap: break-word !important;
+    padding: 15px !important;
+
+}
+
+.button_option:hover{
+}
