@@ -7,6 +7,7 @@ import {
   Key,
   LinkedinBoxFill,
   Phone,
+  SlackFill,
   TwitterFill,
   
 } from "akar-icons";
@@ -330,36 +331,42 @@ export const NAVLINKS = {
       name: "Terms & Conditions",
       link: `/${HOME_ROUTES.termsOfUse}`,
     },
-    {
-      id: uuidv4(),
-      name: "Help & Support",
-      link: "/",
-    },
+    // {
+    //   id: uuidv4(),
+    //   name: "Help & Support",
+    //   link: "/",
+    // },
   ],
   social_media_links: [
     {
       id: uuidv4(),
       name: "Facebook",
       icon: <FacebookFill />,
-      link: "/",
+      link: "https://www.facebook.com/profile.php?id=61550216249214&mibextid=ZbWKwL",
     },
     {
       id: uuidv4(),
       name: "Twitter",
       icon: <TwitterFill />,
-      link: "/",
+      link: "https://twitter.com/NewtonAcademyHQ",
     },
     {
       id: uuidv4(),
       name: "Instagram",
       icon: <InstagramFill />,
-      link: "/",
+      link: "https://twitter.com/NewtonAcademyHQ",
     },
     {
       id: uuidv4(),
       name: "LinkedIn",
       icon: <LinkedinBoxFill />,
       link: "https://www.linkedin.com/company/newtoncore/",
+    },
+    {
+      id: uuidv4(),
+      name: "Slack",
+      icon: <SlackFill />,
+      link: "https://newtonacademygroup.slack.com/archives/D05J77NUML5/",
     },
   ],
 };

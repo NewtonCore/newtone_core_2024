@@ -35,7 +35,11 @@ function HomePageFoooter() {
             <li className="list-inline-item">
               <LinkedinBoxFill size={15} />
             </li>
-            <li className="list-inline-item fw-light">Newtoncore</li>
+            <li className="list-inline-item fw-light">
+              <a href="https://linkedin.com/school/newtonacademyofficial/" target="_blank">
+                Newtoncore
+              </a>
+            </li>
           </ul>
         </AppCol>
         <AppCol lg_size={2} md_size={2} id="homepage_footer_links" olg="1" size="2">

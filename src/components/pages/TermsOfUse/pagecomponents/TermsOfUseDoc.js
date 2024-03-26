@@ -3,7 +3,10 @@ import "./TermsOfUse.css"
 
 function TermsOfUseDoc() {
   return (
-    <div id="terms_of_use">
+    <div id="terms_of_use" 
+     style={{marginTop:80}}> 
+    
+    
       <p>
         <strong>Last updated 14th May 2023</strong>
       </p>
