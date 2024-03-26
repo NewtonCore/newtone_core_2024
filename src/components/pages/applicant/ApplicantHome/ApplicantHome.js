@@ -98,7 +98,7 @@ function ApplicantHome() {
               direction="rtl"
             >
            <h5 className={`display-6  mt-4 ${styles.postlanding_heading}`}>
-                Why Choose Newton International Inc?
+                Why Choose Newton International Inc.
               </h5>
 
               <Fade bottom>

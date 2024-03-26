@@ -12,7 +12,7 @@ const LeftComponent = ({ getStarted }) => {
   return (
     <AppCol id="box" md_size="6" size="6" lg_size="6" sm_size="6">
       <Fade top>
-      <h5 className={`display-6  mt-4 ${styles.postlanding_heading}`}>Why Choose Newton International?</h5>
+      <h5 className={`display-6  mt-4 ${styles.postlanding_heading}`}>Why Choose Newton International Inc.</h5>
       </Fade>
 
       {DUMMY_DATA.whyChooseNewton.map((data) => {

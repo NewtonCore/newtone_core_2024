@@ -362,11 +362,11 @@ export const NAVLINKS = {
       icon: <LinkedinBoxFill />,
       link: "https://www.linkedin.com/company/newtoncore/",
     },
-    {
-      id: uuidv4(),
-      name: "Slack",
-      icon: <SlackFill />,
-      link: "https://newtonacademygroup.slack.com/archives/D05J77NUML5/",
-    },
+    // {
+    //   id: uuidv4(),
+    //   name: "Slack",
+    //   icon: <SlackFill />,
+    //   link: "https://newtonacademygroup.slack.com/archives/D05J77NUML5/",
+    // },
   ],
 };

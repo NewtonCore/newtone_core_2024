@@ -36,8 +36,8 @@ function HomePageFoooter() {
               <LinkedinBoxFill size={15} />
             </li>
             <li className="list-inline-item fw-light">
-              <a href="https://linkedin.com/school/newtonacademyofficial/" target="_blank">
-                Newtoncore
+              <a href="https://www.linkedin.com/company/newtoncore/" target="_blank">
+                Newton Int Inc.
               </a>
             </li>
           </ul>
