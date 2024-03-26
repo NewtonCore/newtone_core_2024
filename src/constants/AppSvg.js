@@ -90,6 +90,9 @@ import WINNING_TALENTS_SVG from "../assets/svg/winning_talents-01.svg";
 import CONTRACT_AGREE_SVG from "../assets/svg/contract_agreement-01.svg";
 import GREET_SVG from "../assets/svg/greeting-01.svg";
 
+import LOGO_ICON_TEAL_SVG from "../assets/svg/Icon-teal.svg";
+
+
 
 
 
@@ -112,6 +115,7 @@ import GREET_SVG from "../assets/svg/greeting-01.svg";
 
 
 export {
+  LOGO_ICON_TEAL_SVG,
   GREET_SVG,
   CONTRACT_AGREE_SVG,
   WINNING_TALENTS_SVG,

@@ -7,7 +7,7 @@ import {
   toggleSideNav,
 } from "../../../app-redux/features/appData/appDataSlice";
 import {
-  COLORED_LOGO_SVG,
+  LOGO_ICON_TEAL_SVG,
   MENU_BARS_SVG,
   USER_SVG,
 } from "../../../constants/AppSvg";
@@ -53,9 +53,13 @@ function AppMobileNav({ isInDashboard = false, component }) {
               sm_size={3}
               xs_size={4}
             >
+               <div style={{height:60,padding:10}}>
+
               <Link to="/">
-                <AppSVG data={COLORED_LOGO_SVG}></AppSVG>
+               <AppSVG style={{height:50,width:50}} data={LOGO_ICON_TEAL_SVG}></AppSVG>
               </Link>
+              </div>
+
             </AppCol>
 
             <AppCol
