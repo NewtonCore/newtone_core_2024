@@ -253,7 +253,7 @@ function ViewJob() {
                             <>
                               <span className="mr-3">
                                 {company !== undefined &&
-                                company.name !== undefined
+                                company.name !== undefined && company.name !== null
                                   ? company.name
                                   : "-"}
                               </span>
