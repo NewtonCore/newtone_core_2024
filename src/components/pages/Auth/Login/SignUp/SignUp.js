@@ -20,7 +20,8 @@ function SignUp({
   handleloginAsTalentCheck,
   checked,
   formInputs,
-  accountCreatedSuccess
+  accountCreatedSuccess,
+  loginAs
 }) {
   return (
     <>
@@ -33,6 +34,7 @@ function SignUp({
             isLoginForm={isLoginForm}
           />
           <SignUpForm
+          loginAs={loginAs}
             formInputs={formInputs}
             toggleRevealPassword={toggleRevealPassword}
             passwordIsVisible={passwordIsVisible}
@@ -46,6 +48,7 @@ function SignUp({
               loadingSignUp={loadingSignUp}
               loginRegisterUser={registerUser}
               isLoginForm={isLoginForm}
+              loginAs={loginAs}
               toggleSignUpForm={toggleSignUpForm}
             />
           </AppRow>

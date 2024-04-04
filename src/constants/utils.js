@@ -1097,7 +1097,16 @@ function stripTags(html){
   return parseHTML;
 }
 
+const validateCompanyEmail = (email) => {
+  // Regular expression to validate email
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  // Check if email matches the regex and does not contain gmail or yahoo domains
+  return emailRegex.test(email) && !/(gmail|yahoo)\.com$/.test(email);
+};
+
 export {
+  validateCompanyEmail,
   stripTags,
   validatePhone,
   validateURL,

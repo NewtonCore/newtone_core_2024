@@ -32,6 +32,7 @@ function LoginSignUpFooter({
   successLogin = undefined,
   loadingLogin,
   loginUser = {},
+  loginAs
 }) {
   return (
     <>

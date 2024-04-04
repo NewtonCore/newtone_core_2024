@@ -12,6 +12,7 @@ function SignUpForm({
   passwordIsVisible,
   toggleRevealPassword,
   formInputs,
+  loginAs
 }) {
   return (
     <div>

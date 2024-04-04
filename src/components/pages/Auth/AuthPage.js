@@ -16,7 +16,7 @@ import {
   toggleLoginAs,
   toggleHideUserCreated,
 } from "../../../app-redux/features/Auth/authSlice";
-import { JsonToformData } from "../../../constants/utils";
+import { JsonToformData, validateCompanyEmail } from "../../../constants/utils";
 import AppGoogleLogin from "../../organisms/AppGoogleLogin/AppGoogleLogin";
 import Login from "./Login/Login";
 import SignUp from "./Login/SignUp/SignUp";
@@ -80,6 +80,20 @@ function AuthPage() {
 
   const handleRegisterUser = (e) => {
     e.preventDefault();
+
+    if (loginAs === 1) {
+      // validate the email here
+      let test_email_validation = validateCompanyEmail(TalentSignUpData.email);
+
+      if (test_email_validation) {
+        // toast.info(`${TalentSignUpData.email} is  a company email`)
+      } else {
+        toast.warning(`${TalentSignUpData.email} is not a company email.`);
+
+        return 0;
+      }
+    }
+
     dispatch(registerUser(JsonToformData(TalentSignUpData)))
       .unwrap()
       .then((res) => {
@@ -115,6 +129,18 @@ function AuthPage() {
   const handleLoginUser = (e) => {
     e.preventDefault();
 
+    if (loginAs === 1) {
+      // validate the email here
+      let test_email_validation = validateCompanyEmail(TalentLoginData.email);
+
+      if (test_email_validation) {
+        // toast.info(`${TalentSignUpData.email} is  a company email`)
+      } else {
+        toast.warning(`${TalentLoginData.email} is not a company email.`);
+
+        return 0;
+      }
+    }
     dispatch(
       loginUser({
         dataToPass: JsonToformData(TalentLoginData),
@@ -143,9 +169,6 @@ function AuthPage() {
     }
   }, [loginUserState]);
 
-
-  
-
   return (
     <div>
       {success ? (
@@ -171,13 +194,11 @@ function AuthPage() {
             <>
               <AppGoogleLogin navigateAfterLogin={navigateAfterLogin} />
               <p className="text-center text-muted">
-              Or connect with your email
+                Or connect with your email
               </p>
-              
             </>
           )}
 
-         
           {appData.showCreateAccount ? (
             <SignUp
               accountCreatedSuccess={success}
@@ -185,6 +206,7 @@ function AuthPage() {
                 parseInt(loginAs) === 1 ? companySignUpForm : talentSignUpForm
               }
               handleloginAsTalentCheck={handleCheck}
+              loginAs={loginAs}
               checked={loginAs}
               errorSignUp={error}
               successSignUp={success}
